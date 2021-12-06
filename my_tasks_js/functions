@@ -1,0 +1,80 @@
+
+/*======task=2=====*/
+// function sor(str){
+//     return str.split('').sort().join('');
+// }
+// let stri = 'webmaster'
+// console.log(sor(stri));
+
+
+/*======task=3=====*/
+// function capitalize_Words(str){
+
+// const words = str.split(" ");
+// let word = ''
+// for (let i = 0; i < words.length; i++) {
+//     word += words[i][0].toUpperCase() + words[i].substr(1) + ' ';
+// }
+
+// return word
+// }
+// console.log(capitalize_Words('js string exercises'));
+
+
+/*======task=4=====*/
+
+// function length(params) {
+//     let arr_len = params.split(' ');
+
+//     let len = arr_len.reduce((a,b)=>{
+//         return a.length > b.length ? a : b;
+//     });
+//     return len
+// }
+// let word = "Veb ishlab chiqish bo'yicha qo'llanma";
+// console.log(length(word));
+
+/*=======task=5======*/
+// function isPrime(num){
+   	
+//     // Less than or equal to 1 are not prime
+//     if (num<=1) return false;
+    
+//     // 2 and 3 are prime, so no calculations
+//     if (num==2 || num==3 ) return true; 
+    
+//     // If mod with square root is zero then its not prime 
+//     if (num % Math.sqrt(num)==0 ) return false;
+    
+//     // Run loop till square root
+//     for(let i = 2, sqrt = Math.sqrt(num); i <= sqrt; i++) {
+    
+//         // If mod is zero then its not prime
+//         if(num % i === 0) return false; 
+//     }
+    
+//     // Otherwise the number is prime
+//     return true;
+// }
+// console.log(isPrime(93));
+
+
+/*=======taks=6=======*/
+// function type(params) {
+//     return typeof params
+// }
+// console.log(type(2));
+
+
+/*=======task=7=======*/
+// function min_max(arr) {
+//     let min_max = []
+//     let arr1 = new Set(arr)
+//     arr = Array.from(arr1)
+//     let max = arr.sort((a,b)=>{
+//         return a>b?1:-1
+//     })
+//     min_max.push(max[1],max[max.length-2])
+//     return min_max
+// }
+// console.log(min_max([9,3,8,2,1,10,4,5,7,30,30,15]));
