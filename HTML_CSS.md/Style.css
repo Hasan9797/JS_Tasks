@@ -1,0 +1,40 @@
+body{
+    background-color:#3478f5;
+}
+
+
+
+.login{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    margin: 25%;
+
+}
+
+.sigin{
+    margin: 10%;
+    background-color: #0bf517;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.UserN{
+    background-color: #dbd9cc;
+    margin: 5px;
+    padding: 2%;
+    color: #fff;
+}
+.Password{
+    background-color: #dbcdcd;
+    margin: 5px;
+    padding: 2%;
+}
+.Click{
+    color: #f1ed16e8;
+}
+
+.para{
+    color: #fff;
+}
